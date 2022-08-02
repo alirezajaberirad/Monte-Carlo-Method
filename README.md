@@ -14,3 +14,5 @@ A picture of simulating each step with a large number of random numbers and comp
 ### Task 3
 In this task, I have proved the Box-Muller conversion generates a pair of standard normal random variables that are independent of each other. The proof is given in the report file.
 
+### Task 4
+This task is very interesting! As we know, Area of a circle with unit radius is equal to Pi. This circle can be fitted inside a 2x2 square. This mean that area of the circle divided by the area of 2x2 square is equal to Pi/4. Assume x and y are two uniform random numbers between -1 and 1 which indicate a point inside the 2x2 square (the reference point is the mutual center of the circle and square). If sqrt(x^2+y^2) is less than 1, it mean that the point is inside the circle. By generating large number of uniform random numbers between -1 and 1, and counting number of points which are included inside the circle and finally dividing it by the total generated point and multipling it by four, an estimation of Pi number has been achieved.
