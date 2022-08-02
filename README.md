@@ -16,3 +16,9 @@ In this task, I have proved the Box-Muller conversion generates a pair of standa
 
 ### Task 4
 This task is very interesting! As we know, Area of a circle with unit radius is equal to Pi. This circle can be fitted inside a 2x2 square. This mean that area of the circle divided by the area of 2x2 square is equal to Pi/4. Assume x and y are two uniform random numbers between -1 and 1 which indicate a point inside the 2x2 square (the reference point is the mutual center of the circle and square). If sqrt(x^2+y^2) is less than 1, it mean that the point is inside the circle. By generating large number of uniform random numbers between -1 and 1, and counting number of points which are included inside the circle and finally dividing it by the total generated point and multipling it by four, an estimation of Pi number has been achieved.
+
+### Task 5
+In this task, a random model for the probable errors in a newly published program is analyzed. Developers of the program detect and resolve a number of errors each day. The number of errors in the ith day has a Poisson distribution in which its lambda parameter is equal to the minimum error of the past three days. First, it is assumed that in the first 3 days, developers have detected 28, 22, and 18 errors.
+In the first step, the number of days to detect all of the errors is estimated.
+In the second step, the probability of which the number of errors has not been detected after 21 days is estimated.
+In the last step, the number of entire errors in the program is estimated.
