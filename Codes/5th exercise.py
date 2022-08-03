@@ -7,11 +7,11 @@ from scipy.stats import poisson
 
 totalSumOfErrors=0
 m=0
-BProbability=0
+BProbability=0 #Used for estimating the probability of errors which remain after 21 days
 N=10000
 for i in range(N):
     numberOfDays=0
-    landa=[28,22,18]
+    landa=[28,22,18] #shows the errors found in the first 3 days after publishing the program
     k=18
     sumOfErrors=sum(landa)
     while(k>0):
