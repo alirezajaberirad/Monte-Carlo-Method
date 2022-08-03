@@ -3,7 +3,7 @@ import numpy.random as r
 import math as m
 import matplotlib.pyplot as plt
 
-def pmf(x,p):
+def pmf(x,p): #Probability mass function
     return ((1-p)**(x-1))*p
 
 p=0.3

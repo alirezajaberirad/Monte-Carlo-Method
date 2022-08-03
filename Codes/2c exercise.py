@@ -2,7 +2,7 @@ import numpy as np
 import random as r
 import math as m
 import matplotlib.pyplot as plt
-def pdf(x,landa):
+def pdf(x,landa): #Probability density function
     y=[]
     for i in range(len(x)):
         y.append(landa**x[i]*np.exp(-landa)/m.factorial(x[i]))
