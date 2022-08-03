@@ -3,7 +3,7 @@ import math as m
 import random
 import matplotlib.pyplot as plt
 
-def pdf(X):
+def pdf(X):#probability density function
     y=[]
     for i in range(len(X)):
         y.append(1.5*m.sqrt(X[i]))
