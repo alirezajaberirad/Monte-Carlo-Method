@@ -11,7 +11,7 @@ def pdf(x,landa):
 
 
 
-landa=2.5
+landa=2.5 #it refers to lambda, just for simplicity it is named landa
 N=100000
 U=[]
 X=[]
